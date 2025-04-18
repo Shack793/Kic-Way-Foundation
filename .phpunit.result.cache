@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Tests\\Feature\\Auth\\LoginTest::test_user_can_login_with_correct_credentials":8,"Tests\\Feature\\Auth\\LoginTest::test_user_cannot_login_with_incorrect_credentials":8},"times":{"Tests\\Feature\\Auth\\LoginTest::test_user_can_login_with_correct_credentials":0.195,"Tests\\Feature\\Auth\\LoginTest::test_user_cannot_login_with_incorrect_credentials":0.228}}

@@ -1,0 +1,24 @@
+/* Add these styles to ensure auth buttons are always visible */
+[data-login-button],
+[data-register-button] {
+  position: relative;
+  z-index: 50;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80px;
+}
+
+/* For mobile responsiveness */
+@media (max-width: 640px) {
+  .fixed.top-4.right-4 {
+    top: 1rem;
+    right: 1rem;
+  }
+  
+  [data-login-button],
+  [data-register-button] {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+}
